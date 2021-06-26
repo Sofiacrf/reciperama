@@ -16,6 +16,16 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
+  img {
+    display: flex;
+    border: 10px;
+    margin: 10px;
+    margin-left: 450px;
+    width: 700px;
+    height: auto;
+    background-image: url(./images/Banana.jpg);
+  }
   
   .signup-box {
     font-family: 'Nunito', sans-serif;
@@ -86,7 +96,8 @@ body {
     line-height: 1.5;
     padding: 10px;
   }
-  
+
+
   .description {
     display: flex;
     justify-content: center;
@@ -147,6 +158,14 @@ body {
     line-height: 60px;
     padding: 0 50px;
     color: black;
+  }
+
+  h6 {
+    height: 20%;
+    padding: 0 50px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
   }
   
   .label-menu {
